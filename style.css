@@ -33,7 +33,6 @@ body {
 @media (max-width: 768px) {
     .image-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 columns */
-        padding: 15px;
     }
 }
 
@@ -41,8 +40,6 @@ body {
 @media (max-width: 480px) {
     .image-grid {
         grid-template-columns: 1fr; /* 1 column */
-        padding: 10px;
-        gap: 10px;
     }
 
     .image-grid img {
