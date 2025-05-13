@@ -1,26 +1,25 @@
+/* Reset margins and set base styles */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-color: #f8f8f8;
 }
 
+/* Grid container */
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
-    gap: 10px;
-    width: 100%; /* Ensure the grid takes full width of the container */
-    max-width: 1200px; /* Optional: limit the maximum width */
+    grid-template-columns: repeat(3, 1fr); /* Desktop: 3 columns */
+    gap: 50xpx;
     padding: 20px;
+    max-width: 1200px;
 }
 
+/* Image styling */
 .image-grid img {
-    width: 100%; /* Make each image take up full width of its container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -30,15 +29,23 @@ body {
     transform: scale(1.05);
 }
 
-/* Mobile responsiveness */
+/* Tablet view */
 @media (max-width: 768px) {
     .image-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        padding: 15px;
     }
 }
 
+/* Mobile view */
 @media (max-width: 480px) {
     .image-grid {
-        grid-template-columns: 1fr; /* 1 column on small screens (phones) */
+        grid-template-columns: 1fr; /* 1 column */
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .image-grid img {
+        border-radius: 4px;
     }
 }
