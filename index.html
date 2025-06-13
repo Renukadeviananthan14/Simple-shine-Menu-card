@@ -3,21 +3,1256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Shine-Women Salon</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="SS1.png">
+    <title>Simple Shine - Women's Salon</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="image-grid">
-        <img src="1.jpg" alt="Image 1">
-        <img src="2.jpg" alt="Image 2">
-        <img src="3.jpg" alt="Image 3">
-        <img src="4.jpg" alt="Image 4">
-        <img src="5.jpg" alt="Image 5">
-        <img src="6.jpg" alt="Image 6">
-        <img src="7.jpg" alt="Image 7">
-        <img src="8.jpg" alt="Image 8">
-        <img src="9.jpg" alt="Image 9">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">SIMPLE SHINE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#threading">Threading</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#haircut">Haircut</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#massage">Massage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#styling">Styling</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#spa">Hair Spa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#color">Coloring</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skin">Skin Care</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bridal">Bridal</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold">SIMPLE SHINE</h1>
+            <p class="lead">WOMEN SALON</p>
+            <p class="tagline">Threaded to slay, snipped to stun, Hair washed smooth, now let's have fun<br>Love yourself, you're the one!</p>
+        </div>
+    </header>
+
+    <!-- Services Sections -->
+    <div class="container">
+        <!-- Threading -->
+        <section id="threading" class="service-section py-5">
+            <h2 class="text-center mb-4">THREADING</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Eye Brow</h5>
+                            <p class="card-text">₹49</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Upper Lip</h5>
+                            <p class="card-text">₹38</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Lower Lip</h5>
+                            <p class="card-text">₹38</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Face Sides</h5>
+                            <p class="card-text">₹49</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Forehead</h5>
+                            <p class="card-text">₹39</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Chin</h5>
+                            <p class="card-text">₹39</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Face</h5>
+                            <p class="card-text">₹199</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Haircut -->
+        <section id="haircut" class="service-section py-5">
+            <h2 class="text-center mb-4">HAIRCUT</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Fringes and Bangs</h5>
+                            <p class="card-text">₹148</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair Trim</h5>
+                            <p class="card-text">₹349</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic (Straights & U Cut)</h5>
+                            <p class="card-text">₹749</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Texture Layer</h5>
+                            <p class="card-text">₹999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Customised Layer</h5>
+                            <p class="card-text">₹1197</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Head Massage -->
+        <section id="massage" class="service-section py-5">
+            <h2 class="text-center mb-4">HEAD MASSAGE</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Coconut Oil</h5>
+                            <p class="card-text">₹549</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Almond Oil</h5>
+                            <p class="card-text">₹649</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Olive Oil</h5>
+                            <p class="card-text">₹749</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Menthol Oil</h5>
+                            <p class="card-text">₹799</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shampoo and Hair Styling -->
+        <section id="styling" class="service-section py-5">
+            <div class="text-center mb-5">
+                <h2>SHAMPOO AND HAIR STYLING</h2>
+                <p class="tagline">"Wash away the day, let love stay, Styled with care in a dreamy way."</p>
+            </div>
+            
+            <h4 class="mb-3">BLOW SETTING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Hair</h5>
+                            <p class="card-text">₹499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medium Hair</h5>
+                            <p class="card-text">₹599</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Hair</h5>
+                            <p class="card-text">₹749</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">IRONING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Hair</h5>
+                            <p class="card-text">₹649</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medium Hair</h5>
+                            <p class="card-text">₹749</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Hair</h5>
+                            <p class="card-text">₹849</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">CURL SETTING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Hair</h5>
+                            <p class="card-text">₹849</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medium Hair</h5>
+                            <p class="card-text">₹949</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Hair</h5>
+                            <p class="card-text">₹1099</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">SHAMPOO AND CONDITIONING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Hair</h5>
+                            <p class="card-text">₹349</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medium Hair</h5>
+                            <p class="card-text">₹449</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Hair</h5>
+                            <p class="card-text">₹549</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center tagline mt-4">"Every wash whispers a fresh new start, Styled with love, straight from the heart."</p>
+        </section>
+
+        <!-- Hair Spa -->
+        <section id="spa" class="service-section py-5">
+            <div class="text-center mb-5">
+                <h2>HAIR SPA</h2>
+                <p class="tagline">"Foam it, comb it, let it shine, Love's in the hair and it's all mine!"</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">NOURISHING TREATMENT</h5>
+                            <p class="card-text">Short Hair ₹1599<br>Medium Hair ₹1840<br>Long Hair ₹2249</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">FRIZZ CONTROL TREATMENT</h5>
+                            <p class="card-text">Short Hair ₹1599<br>Medium Hair ₹1840<br>Long Hair ₹2249</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">SMOOTHING TREATMENT</h5>
+                            <p class="card-text">Short Hair ₹1599<br>Medium Hair ₹1840<br>Long Hair ₹2249</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">CLASSIC HAIR SPA</h5>
+                            <p class="card-text">Short Hair ₹1599<br>Medium Hair ₹1840<br>Long Hair ₹2249</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">DANDRUFF TREATMENT</h5>
+                            <p class="card-text">Short Hair ₹1499<br>Medium Hair ₹1740<br>Long Hair ₹2149</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hair Coloring -->
+        <section id="color" class="service-section py-5">
+            <div class="text-center mb-5">
+                <h2>HAIR COLORING</h2>
+                <p class="tagline">"With every hue, I think of you. Love in each strand, soft and true."</p>
+            </div>
+            
+            <h4 class="mb-3">ROOT TOUCH UP</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Regular</h5>
+                            <p class="card-text">₹850</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Ammonia</h5>
+                            <p class="card-text">₹1199</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Ammonia free</h5>
+                            <p class="card-text">₹1599</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">GLOBAL COLORING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Regular (Medium to length)</h5>
+                            <p class="card-text">₹1599</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Ammonia (Medium to length)</h5>
+                            <p class="card-text">₹1999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Ammonia free (Medium to length)</h5>
+                            <p class="card-text">₹2699</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">GLOBAL FASHION COLORING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Hair</h5>
+                            <p class="card-text">₹1499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medium Hair</h5>
+                            <p class="card-text">₹1899</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Hair</h5>
+                            <p class="card-text">₹2599</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">GLOBAL WITH HIGHLIGHTS</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Short Hair</h5>
+                            <p class="card-text">₹1959</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Medium Hair</h5>
+                            <p class="card-text">₹2599</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Long Hair</h5>
+                            <p class="card-text">₹2899</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">HIGHLIGHTS</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Per streaks</h5>
+                            <p class="card-text">₹449</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Advance streak</h5>
+                            <p class="card-text">₹549</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Per streak (Minimum 6)</h5>
+                            <p class="card-text">₹449 each</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Partial highlights (12 Streaks)</h5>
+                            <p class="card-text">₹2688</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full highlights (18 Streaks)</h5>
+                            <p class="card-text">₹3599</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skin Care -->
+        <section id="skin" class="service-section py-5">
+            <div class="text-center mb-5">
+                <h2>SKIN CARE</h2>
+                <p class="tagline">"You're the glow behind my shine, Like skincare for the heart so fine."</p>
+            </div>
+            
+            <h4 class="mb-3">FACE CLEANUP</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic Cleanup</h5>
+                            <p class="card-text">₹699</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Advance Cleanup</h5>
+                            <p class="card-text">₹999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Cleanup with peel off mask</h5>
+                            <p class="card-text">₹1499</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">FACIAL</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Skin lightening facial</h5>
+                            <p class="card-text">₹799</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Fruit facial</h5>
+                            <p class="card-text">₹899</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Whitening facial</h5>
+                            <p class="card-text">₹999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Hydration facial</h5>
+                            <p class="card-text">₹1199</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">ADVANCE FACIAL</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pearl facial</h5>
+                            <p class="card-text">₹1199</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Gold facial</h5>
+                            <p class="card-text">₹1499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Active charcoal facial</h5>
+                            <p class="card-text">₹2499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Brightening facial</h5>
+                            <p class="card-text">₹2999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pure gold facial</h5>
+                            <p class="card-text">₹3499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Skin whitening facial</h5>
+                            <p class="card-text">₹3999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">BRIDAL FACIAL</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Power brightening facial</h5>
+                            <p class="card-text">₹3676</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Radian glowing facial</h5>
+                            <p class="card-text">₹4796</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Jewel facial</h5>
+                            <p class="card-text">₹5296</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">EXPRESS FACIAL</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Detan + Vitamin C mask</h5>
+                            <p class="card-text">₹999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Detan + Vegetable mask</h5>
+                            <p class="card-text">₹1299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Detan + Gold mask</h5>
+                            <p class="card-text">₹1399</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">DETAN</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full arms</h5>
+                            <p class="card-text">₹899</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Half arms</h5>
+                            <p class="card-text">₹449</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Under arms</h5>
+                            <p class="card-text">₹199</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full leg</h5>
+                            <p class="card-text">₹999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Half leg</h5>
+                            <p class="card-text">₹499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Feet</h5>
+                            <p class="card-text">₹299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full back</h5>
+                            <p class="card-text">₹599</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Face</h5>
+                            <p class="card-text">₹399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full body</h5>
+                            <p class="card-text">₹3999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waxing -->
+        <section class="service-section py-5">
+            <div class="text-center mb-5">
+                <h2>WAXING</h2>
+                <p class="tagline">"In every drop that soothes my face, I feel your love, your soft embrace."</p>
+            </div>
+            
+            <h4 class="mb-3">HONEY WAXING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Half arms</h5>
+                            <p class="card-text">₹249</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full arms</h5>
+                            <p class="card-text">₹489</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full leg</h5>
+                            <p class="card-text">₹499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Half leg</h5>
+                            <p class="card-text">₹299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full back</h5>
+                            <p class="card-text">₹599</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full body</h5>
+                            <p class="card-text">₹1699</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Under arms</h5>
+                            <p class="card-text">₹199</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Upper lip</h5>
+                            <p class="card-text">₹69</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Chin</h5>
+                            <p class="card-text">₹89</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">FLAVOUR WAXING</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Half arms</h5>
+                            <p class="card-text">₹399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full arms</h5>
+                            <p class="card-text">₹699</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Half leg</h5>
+                            <p class="card-text">₹499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full leg</h5>
+                            <p class="card-text">₹899</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Under arms</h5>
+                            <p class="card-text">₹299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Upper lip</h5>
+                            <p class="card-text">₹149</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Chin</h5>
+                            <p class="card-text">₹149</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full face</h5>
+                            <p class="card-text">₹399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full back</h5>
+                            <p class="card-text">₹799</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full body</h5>
+                            <p class="card-text">₹2899</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bleach, Pedicure, Manicure, Bridal -->
+        <section id="bridal" class="service-section py-5">
+            <div class="text-center mb-5">
+                <h2>BEAUTY SERVICES</h2>
+                <p class="tagline">"More than a bride, she's a promise come true, A heartbeat wrapped in something new."</p>
+            </div>
+            
+            <h4 class="mb-3">BLEACH</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Under arms</h5>
+                            <p class="card-text">₹149</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Feet</h5>
+                            <p class="card-text">₹299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Face & neck</h5>
+                            <p class="card-text">₹399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Blouse line</h5>
+                            <p class="card-text">₹299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Half arms</h5>
+                            <p class="card-text">₹399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full arms</h5>
+                            <p class="card-text">₹499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Midriff</h5>
+                            <p class="card-text">₹449</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Full body</h5>
+                            <p class="card-text">₹2599</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">PEDICURE</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Regular</h5>
+                            <p class="card-text">₹499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Crystal foot spa</h5>
+                            <p class="card-text">₹899</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bom pedicure</h5>
+                            <p class="card-text">₹999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">MANICURE</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Regular</h5>
+                            <p class="card-text">₹299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Crystal spa</h5>
+                            <p class="card-text">₹499</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bom manicure</h5>
+                            <p class="card-text">₹599</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">BRIDAL</h4>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Party makeup</h5>
+                            <p class="card-text">₹3000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Party hairdo</h5>
+                            <p class="card-text">₹3500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bridal makeover</h5>
+                            <p class="card-text">₹9000 (Makeup+hairdo+saree)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">MAC</h5>
+                            <p class="card-text">₹11000 (Makeup+hairdo+saree)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">HD makeup</h5>
+                            <p class="card-text">₹15000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Air brush</h5>
+                            <p class="card-text">₹20000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">SAREE</h4>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Prepleating</h5>
+                            <p class="card-text">₹300</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Draping</h5>
+                            <p class="card-text">₹500</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mb-3">TREATMENT</h4>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Heel peel treatment</h5>
+                            <p class="card-text">₹1999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card service-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Hydra facial treatment</h5>
+                            <p class="card-text">₹3999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Packages -->
+        <section class="service-section py-5 bg-light">
+            <div class="text-center mb-5">
+                <h2>PREMIUM PACKAGES</h2>
+                <p class="tagline">"You're not just a client, you're the heart of our salon."</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-4">
+                    <div class="card package-card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">PREMIUM</h3>
+                            <p class="card-text">
+                                Threading (Full face) - Under arms waxing (flavored waxing)<br>
+                                Full hand full leg waxing (Honey waxing)<br>
+                                Manicure regular - Pedicure regular<br>
+                                Olive oil head massage - Power brightening facial
+                            </p>
+                            <h4 class="price">₹6999</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card package-card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">LUXURY</h3>
+                            <p class="card-text">
+                                Threading - Upper lips, chin, sides waxing (flavour waxing)<br>
+                                Under arms - Full leg, full arms (flavour waxing)<br>
+                                Pedicure - Manicure (Ice pedicure)<br>
+                                Hair spa - Facial - Jewel facial (or) hydra facial
+                            </p>
+                            <h4 class="price">₹8999</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+<br><br>
+    <!-- Footer -->
+    <footer class="bg-pink text-white py-5">
+        <div class="container text-center">
+            <h3 class="mb-4">Thank You for Choosing Us!</h3>
+            <p class="mb-4">
+                Here, beauty isn't just a service, it's a celebration of you.<br>
+                From the glow of your skin to the bounce in your hair,<br>
+                We're honored to be part of your self-love journey.<br>
+                Whether you're here for a quick touch-up or a full day of pampering,<br>
+                Remember: you are strong, beautiful, and worth every bit of care.<br>
+                Come back soon, gorgeous, your sparkle deserves the spotlight!
+            </p>
+            <div class="contact-info mb-4">
+                <h4>Simple Shine Women Salon</h4>
+                <p>No:79 4th Street, Amman Nagar Kattur, Trichy</p>
+            </div>
+            <div class="social-icons mb-4">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="mb-0">With Love,<br>Simple Shine Women Salon</p>
+        </div>
+    </footer>
+    <script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
